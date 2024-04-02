@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: var(--space-3xl);
+  border-radius: 5px;
 }
 
 .title {
@@ -12,7 +13,18 @@
   font-size: var(--text-lg);
   margin-bottom: var(--space-xs);
   margin-top: var(--space-lg);
-  border-bottom: 1.5px solid transparent;
+  border-radius: 5px;
+  
+}
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 5px;
+  /* Additional styles as needed */
+}
+
+.img {
+  border-radius: 5px;
+  /* Additional styles as needed */
 }
 
 .link {
@@ -26,4 +38,5 @@
 .meta {
   display: flex;
   justify-content: space-between;
+  border-radius: 5px;
 }

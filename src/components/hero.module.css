@@ -16,6 +16,7 @@
   height: 61.8vh;
   max-height: 560px;
   width: 100%;
+  border-radius: 5px;
 }
 
 .details {

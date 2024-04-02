@@ -9,6 +9,7 @@ const Container = ({ children, as = 'div' }) => {
         maxWidth: 'var(--size-max-width)',
         margin: '0 auto',
         padding: 'var(--space-2xl) var(--size-gutter)',
+        borderRadius: '5px',
       }}
     >
       {children}

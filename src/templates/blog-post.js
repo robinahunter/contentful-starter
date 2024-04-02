@@ -48,7 +48,7 @@ class BlogPostTemplate extends React.Component {
         <Hero
           image={post.heroImage?.gatsbyImage}
           title={post.title}
-          content={post.description}
+
         />
         <div className={styles.container}>
           <span className={styles.meta}>

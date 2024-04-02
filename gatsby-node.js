@@ -5,6 +5,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve('./src/templates/blog-post.js')
+  const infoPage = path.resolve('./src/pages/info.js')
 
   const result = await graphql(
     `
@@ -50,4 +51,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       })
     })
   }
+    // Create info page
+    createPage({
+      path: '/info',
+      component: infoPage,
+    })
 }

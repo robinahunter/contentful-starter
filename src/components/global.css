@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inter var';
-  font-weight: 100 900;
+  font-weight: 100 500;
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
@@ -9,11 +9,19 @@
 
 @font-face {
   font-family: 'Inter var';
-  font-weight: 100 900;
+  font-weight: 100 500;
   font-display: swap;
   font-style: italic;
   font-named-instance: 'Italic';
   src: url('/fonts/Inter-italic.var.woff2?v=3.19') format('woff2');
+}
+
+p {
+  font-size: 1.15rem; /* Adjust the font size to your preference */
+}
+
+h1 {
+  font-size: 1rem;
 }
 
 html {
@@ -22,6 +30,7 @@ html {
 
 html * {
   box-sizing: border-box;
+  border-radius:5px;
 }
 
 body {
@@ -58,6 +67,7 @@ a {
 
 a:hover {
   color: var(--primary);
+
 }
 
 a.active {
