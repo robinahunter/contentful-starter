@@ -17,11 +17,7 @@
 }
 
 p {
-  font-size: 1.15rem; /* Adjust the font size to your preference */
-}
-
-h1 {
-  font-size: 1rem;
+  font-size: 1.25rem; /* Adjust the font size to your preference */
 }
 
 html {
@@ -30,7 +26,6 @@ html {
 
 html * {
   box-sizing: border-box;
-  border-radius:5px;
 }
 
 body {
@@ -45,7 +40,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img {
+.image {
   display: block;
   width: 100%;
 }
